@@ -1,0 +1,29 @@
+class Account
+{
+  password;
+  username;
+  int accountNumber;
+  int yearCreated;
+  1 -- * Customer;
+  1 -- * Order;
+}
+
+class Order
+{
+  int month;
+  int day;
+  int year;
+  int orderNumber;
+}
+
+class Customer
+{
+  
+    
+    
+  firstName;
+  lastName;
+  shippingAddress;
+  billingAddress;
+}
+
